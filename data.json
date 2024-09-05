@@ -1,0 +1,11 @@
+{
+    "s": "Jon",
+    "number": "35",
+    "bool": "true",
+    "array": ["run", "jump"],
+    "object": {
+        "twiter":"@anything",
+        "email":"@whatever"
+    },
+    "n": null
+}

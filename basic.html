@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript basics</title>
+</head>
+
+<body>
+    <h1>Javascript basics</h1>
+    <ul>
+        <li>Spring</li>
+        <li>Summer</li>
+        <li>Fall</li>
+        <li>Winter</li>
+    </ul>
+    <script>
+        const json = {
+            s: "Jon",
+            number: 35,
+            bool: true,
+            array: ["run", "jump"],
+            object: {
+                twiter:"@anything",
+                email:"@whatever"
+            },
+            n: null
+        }
+
+        console.log(json)
+        console.log(JSON)
+
+        console.log(JSON.parse("{}"))
+        console.log(JSON.parse("[1,2,3]"))
+        console.log(JSON.parse("true"))
+        console.log(JSON.parse("'hi'"))
+        //(null) yes
+        //(undefined) no
+        console.log(JSON.stringify({})) //-> string
+        console.log(JSON.stringify([1,2,3]))
+        console.log(JSON.stringify(true))
+        console.log(JSON.stringify({x:2, y:3})) //-> string
+
+        console.log(JSON.stringify({json})) //-> string
+        console.log(JSON.parse('{"s": "Jon","number": "35","bool": "true","array": ["run", "jump"],"object": {"twiter":"@anything", "email":"@whatever" },"n": null}')) //-> object
+
+        
+    </script>
+</body>
+
+</html>
